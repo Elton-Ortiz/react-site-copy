@@ -1,0 +1,29 @@
+.cards{
+    width: 100%;
+    color: black;
+}
+.cards-scroll{
+    overflow-y: hidden;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 42em;
+    min-width: 75vw;
+    margin: 40px 0 40px 20px;
+}
+.card h3{
+    font-size:20px;
+    font-weight: 300;
+    color:#6d6d6d;
+}
+
+.card p{
+    display: inline;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
