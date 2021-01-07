@@ -8,7 +8,7 @@ function Header() {
 
         <header>
             <Link to="/" className="logo">
-                <img src={logo}></img>
+                <img src={logo} alt="logo"></img>
                 <span>React</span>
             </Link>
             <nav>
