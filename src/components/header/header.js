@@ -13,7 +13,7 @@ function Header() {
             </Link>
             <nav>
                 <ul>
-                    <Link><li>Documentos</li></Link>
+                    <Link to="/work" ><li>Documentos</li></Link>
                     <Link><li>Tutorial</li></Link>
                     <Link><li>Blog</li></Link>
                     <Link><li>Comunidade</li></Link>

@@ -21,17 +21,16 @@ a{
     font-weight: 300;
 }
 .logo{
-    width: 100% ;
     margin: 0 10px 0 0;
-   flex-basis: content;
+   flex-basis: calc( 100% / 6 );
 }
 img{
     width: 20px;
     height: fit-content;
-    margin: auto;
+    margin: auto 0;
 }
 nav{
-    width: 100%;
+    width: fit-content;
     overflow-y: hidden;
     mask-image: linear-gradient(to  right, transparent, black 20px, black 90%, transparent);
     scrollbar-color: transparent  transparent;
@@ -42,13 +41,10 @@ ul{
     padding: 0;
     display: flex;
     justify-content: stretch;
+}
 
-}
-ul a{
-    margin: 0 8px;
-}
 li{
-    padding: 0;
+    padding: 0 10px;
     list-style: none;
     text-align: center;
 }
@@ -111,6 +107,10 @@ strong{
 @media(min-width:600px){
     header{
         height: 50px;
+        font-size:17px;
+    }
+    nav{
+        padding-left: 15px;
     }
     header span,
     p{
@@ -120,6 +120,7 @@ strong{
         margin-left:10px;
         color: #61dafb;
     }
+   
 }
 @media(min-width:780px){
     header{
@@ -130,5 +131,18 @@ strong{
     }
     .languages{
         display: inline;
+    }
+}
+@media(min-width:980px){
+    ul li{
+        padding:0 15px;
+    }
+}
+@media(min-width:1280px){
+    header{
+        height: 60px;
+    }
+    ul a{
+        padding: 0 20px;
     }
 }
