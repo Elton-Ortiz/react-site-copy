@@ -8,7 +8,7 @@ function ProjectsMenu() {
     const [clicked, setClicked] = useState("clicked")
 
     function toggle(){
-      if(display == "block"){
+      if(display === "block"){
           setDisplay("none")
           setClicked(" ")
         }else{
@@ -34,7 +34,7 @@ function ProjectsMenu() {
         <h1>Projects</h1>
         <nav>
             <ul>
-                <li><a target="_blank" href="https://siteform.netlify.app/">Form</a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://siteform.netlify.app/">Form</a></li>
                 <li><a href="#">reactjs.org copy
             <p>Trabalhando atualmente</p>
                 </a>
