@@ -35,11 +35,11 @@ function ProjectsMenu() {
         <nav>
             <ul>
                 <li><a target="_blank" rel="noreferrer" href="https://siteform.netlify.app/">Form</a></li>
-                <li><a href="#">reactjs.org copy
+                <li><a href="https://eltonortizmyworks.netlify.app/">reactjs.org copy
             <p>Trabalhando atualmente</p>
                 </a>
                 </li>
-                <li><a target="_blank" href="#">angular.io copy
+                <li><a target="_blank" rel="noreferrer" href="https://eltonortizmyworks.netlify.app/">angular.io copy
             <p>Próximo projeto</p>
                 </a>
                 </li>
