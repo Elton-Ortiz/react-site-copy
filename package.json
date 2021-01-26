@@ -35,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Copy from reactjs.org",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elton-Ortiz/react-site-copy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elton-Ortiz/react-site-copy/issues"
+  },
+  "homepage": "https://github.com/Elton-Ortiz/react-site-copy#readme"
 }
